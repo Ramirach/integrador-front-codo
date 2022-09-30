@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+
+   body {
+    font-family:Arial, Helvetica, sans-serif;
+   }
+
+   a {
+    text-decoration: none;
+   }
+   
+   li {
+    list-style: none;
+   }
+
+   .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(43, 48, 48);
+   }
+
+   .logo {
+    align-items: center;
+    display: flex;
+    gap: 1em;
+   }
+
+   .sub-logo {
+    color: antiquewhite;
+    font-size: larger;
+   }
+
+   .codologo {
+    width: 160px;
+    height: 100px;
+   }
+
+   .menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+   }
+
+   .menu-b {
+    color: rgb(160, 160, 160);
+   }
+
+   .compra {
+    color: rgb(5, 165, 5);
+    padding-right: 150px;
+   }
+
+   .center-subtitle {
+    text-align: center;
+   }

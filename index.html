@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>Codo a codo 4.0</title>
+</head>
+<body>  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="img/codoacodo.png" class="codologo" alt=""><p class="sub-logo">Conf Bs As</p>
+        </div>
+            <ul>
+                <div class="menu">
+                    <li><a href="#" class="menu-b">La conferencia</a></li>
+                    <li><a href="#" class="menu-b">Los oradores</a></li>
+                    <li><a href="#" class="menu-b">El lugar y la fecha</a></li>
+                    <li><a href="#" class="menu-b">Conviértete en orador</a></li>
+                    <li><a href="#" class="compra">Comprar tickets</a></li>    
+                </div>
+            </ul>
+    </nav>
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/img/ba1.jpg" class="d-block w-100" alt="">
+          <button type="button" class="btn btn-outline-primary">Quiero ser orador</button>
+          <button type="button" class="btn btn-success">Comprar tickets</button>
+        </div>
+        <div class="carousel-item">
+          <img src="/img/ba2.jpg" class="d-block w-100" alt="">
+          <button type="button" class="btn btn-outline-primary">Quiero ser orador</button>
+          <button type="button" class="btn btn-success">Comprar tickets</button>
+        </div>
+        <div class="carousel-item">
+          <img src="/img/ba3.jpg" class="d-block w-100" alt="">
+          <button type="button" class="btn btn-outline-primary">Quiero ser orador</button>
+          <button type="button" class="btn btn-success">Comprar tickets</button>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <h6 class="center-subtitle">CONOCE A LOS</h6>
+      <h1 class="center-subtitle">ORADORES</h1>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="/img/steve.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <button type="button" class="btn btn-primary" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+              Javascript
+            </button>
+            <button type="button" class="btn btn-primary"
+                    style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+              React
+            </button>
+            <h5 class="card-title">Steve Jobs</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/img/bill.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <button type="button" class="btn btn-primary" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+              Javascript
+            </button>
+            <button type="button" class="btn btn-primary" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+              React
+            </button>
+            <h5 class="card-title">Bill Gates</h5>
+            <p class="card-text">This is a short card.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/img/ada.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+          <button type="button" class="btn btn-primary" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+            Negocios
+          </button>
+          <button type="button" class="btn btn-primary" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+            Startups
+          </button>
+            <h5 class="card-title">Ada Lovelace</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br><br>
+    <div>
+      <h6 class="center-subtitle">CONVIERTETE EN UN</h6>
+      <h1 class="center-subtitle">ORADOR</h1>
+      <p class="center-subtitle">Anotate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p>
+      <form action="">
+        <div class="center-subtitle">
+          <input type="text" placeholder="Nombre" style="width : 30%">
+          <input type="text" placeholder="Apellido" style="width : 30%">
+        </div>
+        <br>
+        <div class="center-subtitle">
+          <input type="text" placeholder="Sobre qué quieres hablar?" style="width : 60%; height: 90px;">
+          <p>Recuerda incluir un título para tu charla</p>
+        </div>
+        
+      </form>
+    </div>
+</body>
+<footer>
+    <div class="footer">
+      <li class="footer-list"><a href="#">Preguntas Frecuentes</a></li>
+      <li class="footer-list"><a href="#">Contáctanos</a></li>
+      <li class="footer-list"><a href="#">Prensa</a></li>
+      <li class="footer-list"><a href="#">Conferencias</a></li>
+      <li class="footer-list"><a href="#">Términos y condiciones</a></li>
+      <li class="footer-list"><a href="#">Privacidad</a></li>
+      <li class="footer-list"><a href="#">Estudiantes</a></li>
+    </div>
+</footer>
+</html>
